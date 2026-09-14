@@ -8,6 +8,16 @@ const syncHeader = () => {
 syncHeader();
 window.addEventListener('scroll', syncHeader, { passive: true });
 
+// Match the reference's light navigation treatment while the cream sections are visible.
+const lightSections = document.querySelectorAll('.section-cream, .section-cream-alt');
+if ('IntersectionObserver' in window) {
+  const lightObserver = new IntersectionObserver((entries) => {
+    const showLightHeader = entries.some((entry) => entry.isIntersecting && entry.intersectionRatio > 0.12);
+    header.classList.toggle('on-light', showLightHeader);
+  }, { rootMargin: '-18% 0px -58% 0px', threshold: [0, 0.12, 0.4] });
+  lightSections.forEach((section) => lightObserver.observe(section));
+}
+
 menuToggle?.addEventListener('click', () => {
   const open = menuToggle.getAttribute('aria-expanded') === 'true';
   menuToggle.setAttribute('aria-expanded', String(!open));

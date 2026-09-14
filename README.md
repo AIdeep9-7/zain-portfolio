@@ -12,6 +12,15 @@ python3 -m http.server 4173 --bind 0.0.0.0
 
 Then open the live preview or visit `http://localhost:4173` locally.
 
+## Test before deployment
+
+```bash
+python audit.py
+node --check script.js
+```
+
+The audit checks local assets, links, section anchors, real-data placeholders, responsive hooks, navigation order, and the live deployment smoke test.
+
 ## Edit content
 
 - Main copy and sections: `index.html`

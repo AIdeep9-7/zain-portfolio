@@ -15,6 +15,8 @@ button{font:inherit}
 .skip-link{position:fixed;top:10px;left:10px;z-index:100;padding:.65rem 1rem;background:var(--orange);color:var(--black);border-radius:999px;transform:translateY(-160%);transition:transform .2s}.skip-link:focus{transform:translateY(0)}
 
 .site-header{position:fixed;z-index:50;top:0;left:0;right:0;height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 max(4vw,24px);color:var(--white);background:linear-gradient(180deg,rgba(23,42,27,.76),rgba(23,42,27,0));transition:background .3s,backdrop-filter .3s}.site-header.scrolled{background:rgba(38,59,42,.94);backdrop-filter:blur(12px)}
+.site-header.on-light{color:var(--ink);background:rgba(246,238,225,.94);box-shadow:0 1px 0 rgba(51,75,53,.1);backdrop-filter:blur(12px)}
+.site-header.on-light .menu-toggle{color:var(--ink)}
 .brand{display:inline-flex;align-items:center;gap:11px;font:700 20px/1 Bodoni,serif;white-space:nowrap}.brand-mark{width:15px;height:15px;display:inline-block;background:var(--coral);clip-path:polygon(50% 0,62% 38%,100% 50%,62% 62%,50% 100%,38% 62%,0 50%,38% 38%)}
 .site-nav{display:flex;align-items:center;gap:34px;font-size:12px}.site-nav a{opacity:.94;transition:opacity .2s,color .2s}.site-nav a:hover,.site-nav a:focus-visible{color:var(--orange);opacity:1}.site-nav .nav-cta{padding:10px 19px;border-radius:999px;background:var(--orange);color:var(--black);font-weight:600}
 .menu-toggle{display:none;border:0;background:transparent;color:var(--white);padding:9px}.menu-toggle span:not(.sr-only){display:block;width:25px;height:2px;margin:5px 0;background:currentColor}
