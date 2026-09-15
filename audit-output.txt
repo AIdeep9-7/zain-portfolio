@@ -1,0 +1,65 @@
+# Portfolio audit report
+
+Local file: /home/user/zayn-portfolio-site/index.html
+Checks passed: 57/57
+
+PASS | HTML document has lang | en
+PASS | Title present | Zain Ul Abideen — AI Automation & Computer Science
+PASS | Meta description present
+PASS | Open Graph metadata present
+PASS | Structured Person data present
+PASS | Latest contact email present
+PASS | Expanded interests present
+PASS | Interest grid has responsive six-item layout
+PASS | Modern image sources present
+PASS | IDs are unique
+PASS | Image alt: assets/zayn-hero-match-a.png | present
+PASS | Image alt: assets/zayn-about-professional.png | present
+PASS | Local asset: styles.css | /home/user/zayn-portfolio-site/styles.css
+PASS | Local asset: assets/zayn-hero-match-a.png | /home/user/zayn-portfolio-site/assets/zayn-hero-match-a.png
+PASS | Local asset: assets/zayn-about-professional.png | /home/user/zayn-portfolio-site/assets/zayn-about-professional.png
+PASS | Local asset: script.js | /home/user/zayn-portfolio-site/script.js
+PASS | Anchor target: #main
+PASS | Anchor target: #top
+PASS | Anchor target: #about
+PASS | Anchor target: #resume
+PASS | Anchor target: #work
+PASS | Email link present | mailto:Connectwithzayn1@gmail.com?subject=Portfolio%20enquiry
+PASS | Anchor target: #about
+PASS | Email link present | mailto:Connectwithzayn1@gmail.com
+PASS | Phone link present | tel:+923454577149
+PASS | Anchor target: #top
+PASS | Email link present | mailto:Connectwithzayn1@gmail.com
+PASS | No test placeholder: Lahore, Pakistan
+PASS | No test placeholder: zayn.test@example.com
+PASS | No test placeholder: +92 300 000 0000
+PASS | No test placeholder: Northstar Institute
+PASS | No test placeholder: Connectwithzayna@gmail.com
+PASS | No test placeholder: [ADD
+PASS | No test placeholder: placeholder
+PASS | Section exists: #top
+PASS | Section exists: #about
+PASS | Section exists: #work
+PASS | Section exists: #resume
+PASS | Section exists: #contact
+PASS | Section exists: #main
+PASS | Navigation order matches reference | ['About me', 'Resume', 'Work', 'Get in touch!']
+PASS | Navigation label: About me
+PASS | Navigation label: Work
+PASS | Navigation label: Resume
+PASS | Navigation label: Get in touch!
+PASS | Experience heading matches reference
+PASS | Responsive breakpoint <=700px
+PASS | Mobile menu JS present
+PASS | Light-header behavior present
+PASS | No external stylesheet dependency
+PASS | No external script dependency | []
+PASS | Live site HTTP response | 12502 bytes
+PASS | Live title matches local
+PASS | Live content: Zain Ul Abideen
+PASS | Live content: Toba Tek Singh, Pakistan
+PASS | Live content: University of Agriculture
+PASS | Live content: AI Automation Systems
+
+## Warnings
+- Live deployment pending: Connectwithzayn1@gmail.com: public site is an older revision
